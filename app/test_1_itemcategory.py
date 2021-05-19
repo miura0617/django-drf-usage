@@ -1,4 +1,4 @@
-# brands関係のテストコードを書くファイル
+# テストコードを書くファイル
 from django.contrib.auth import get_user_model
 from django.urls import reverse
 from django.test import TestCase
@@ -72,7 +72,7 @@ class ItemCategoryApiTests(TestCase):
     
     # PATCHメソッド
     def test_1_5_should_partial_update_itemcategory(self):
-        # PATCHメソッドをテストするため、既存のbrandを作成しておく
+        # PATCHメソッドをテストするため、既存のitemcategoryを作成しておく
         itemcategory = create_itemcategory(item_category_name='フルーツ')
         payload = {'item_category_name': '野菜'}
         url = detail_url(itemcategory.id)
