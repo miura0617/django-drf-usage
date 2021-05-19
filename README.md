@@ -46,7 +46,7 @@ python project\get_random_secret_key.py
 python manage.py makemigrations
 python manage.py migrate
 
-## (9) スーパユーザを作成
+## スーパユーザを作成
 
 以下のコマンドでスーパユーザを作成します。
 
