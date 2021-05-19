@@ -71,3 +71,5 @@ python manage.py runserver
 
 「http://127.0.0.1:8000/app/itemcategory/」
 「http://127.0.0.1:8000/app/item/」
+
+ 詳細については[こちら](https://engineer-lifestyle-blog.com/code/python/django-restframework-usage-behavior-confirmation/)の記事を参照してください。
